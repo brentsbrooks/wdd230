@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
 header {
   margin: 1rem;
   border: 1px solid #bbb;
@@ -19,7 +23,7 @@ header {
 
 body {
   font-size: 20px;
-  font-family: Arial;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header, main, footer {
@@ -34,10 +38,14 @@ header img {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 5);
 }
 
+h1 {
+  font-size: 1rem;
+}
 
 h2 {
   margin: 20px;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 ul {
@@ -55,6 +63,7 @@ footer {
   background-color: #483D8B;
   border-radius: 10px;
   color: #FFFFFF;
+  font-size: 0.5rem;
 }
 
 main li:hover {
