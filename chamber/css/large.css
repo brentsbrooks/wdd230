@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64em) {
+  .navigation {
+		display: flex;
+    border: none;
+    grid-column: 1/2;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    margin: 5px;
+  }
+
+
+}
