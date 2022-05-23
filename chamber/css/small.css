@@ -10,6 +10,17 @@ a {
   font-family: 'roboto flex', sans-serif;
 }
 
+#banner {
+  background-color: #3C6E71;
+  border: 1px solid #284B63;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0 5px 5px 5px;
+  text-align: center;
+  font-family: 'roboto flex', sans-seriff;
+  color:  #D9D9D9;
+}
+
 header {
   background-color: #284B63;
   padding: 5px;
@@ -163,6 +174,33 @@ main h3 {
   padding: 0;
 }
 
+.section_2 p, .section_2 a {
+  margin: 1rem;
+}
+
+
+.section_3 img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.weather_content {
+  border: none;
+  display: flex;
+}
+
+.section_3 p {
+  margin: 1rem;
+}
+
+.section_4 p {
+  margin: 1rem;
+}
+
+.section_5 {
+  text-align: center;
+} 
+
 .section_5 h3 {
   text-align: center;
   border: 1px solid #284B63;
@@ -171,10 +209,12 @@ main h3 {
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  
   background-color: #284B63;
   color: #D9D9D9;
-  
+}
+
+.section_5 p {
+  margin: 1rem;
 }
 
 .section_6 {
