@@ -13,11 +13,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
+  <script src="js/windchill.js" defer></script>
 </head>
 <body>
   <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❌</button></div>
   <header>
-    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
 
     <section class="headings">    
       <h1>Centurion</h1>
@@ -43,7 +44,12 @@
   <main>
     <div class="section_1">
       <h2>Welcome to Centurion</h2>
-      <img src="images/Centurion.jpg" alt="Centurion Gautrain Station">
+      <picture>
+        <img src="images/wdd230-org0.jpg" alt="week 6" sizes="50vs"
+        srcset="images/wdd230-600.jpg 520w,
+        images/wdd230-800.jpg 1024w,
+        images/wdd230-1100.jpg 1200w,"">
+      </picture>
     </div>
     <div class="section_2">
       <h3>Ribbon Cutting</h3>
@@ -54,11 +60,12 @@
     <div class="section_3">
       <h3>Weather</h3>
       <div class="weather_content">
-        <img src="images/partyly-cloudy.png" alt="">
-        <h3>26°C <br> Partly Cloudy</h3>
+        <img src="images/partyly-cloudy.png" alt="weather icon">
+        <h3><span id="temp">43</span>°F <br> Partly Cloudy</h3>
       </div>
-      <p>Wind Speed: 5km/h</p>
+      <p>Wind Speed: <span id="windSpeed">6</span>mph</p>
       <p>Humidity: 5%</p>
+      <p>Windchill: <span id="windChill"></span>°F</p>
     </div>
     <div class="section_4">
       <h3>News Release</h3>
@@ -92,7 +99,7 @@
     </div>
   </main>
   <footer>
-    <img src="images/logo.png" alt="logo">
+    <img src="images/logo.webp" alt="logo">
 
     <div>
       <p>10 Selborne Street</p>

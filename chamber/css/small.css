@@ -199,6 +199,9 @@ main h3 {
   border: none;
   display: flex;
 }
+.weather_content h3 {
+  margin: auto;
+}
 
 .section_3 p {
   margin: 1rem;
