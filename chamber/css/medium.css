@@ -43,6 +43,25 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .gallery img:hover {
+    filter: blur(1px) grayscale(80%);
+  }
+
+  .gallery {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .information {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .lastVisited {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+
   footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
