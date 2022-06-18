@@ -1,0 +1,92 @@
+:root {
+  --header_background: #ac1e4d;
+  --header_text: black;
+  --col_header_bg: #c28181;
+  --col_header_text: white;
+  --zebra_dark: #cabdbd;
+  --zebra_ligth: white;
+  --footer_bg: #ac1e4d;
+  --shadow: black;
+  --border: lightgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+table {
+	margin: 0.85em auto;
+	border-collapse: collapse;
+  font-size: 1em;
+  box-shadow:  0.5em 0.5em 1em var(--shadow);
+}
+
+tfoot th {
+  padding: 0.85em;
+  caption-side: bottom;
+	background-color: var(--footer_bg);
+	font-size: 0.75em; 
+  font-weight: lighter; 
+}
+
+
+
+
+thead tr:first-child th {
+	background-color: var(--header_background);
+  font-size: 2em;
+}
+
+thead tr:nth-child(2) th {
+  background-color: var(--col_header_bg);
+  color: var(--col_header_text);
+}
+
+tbody tr > th {
+  font-weight: lighter;
+}
+
+tbody tr:nth-child(5) th {
+  font-style: italic;
+}
+
+tbody tr:nth-child(4) td:last-child {
+  background-color: var(--col_header_bg);
+  color: var(--col_header_text);
+}
+
+
+td {
+  text-align: center;
+}
+
+th, td {
+	padding: 0.45em 0.95em;
+	
+}
+
+table, th, td {
+	border: thin solid var(--border);
+}
+
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra_ligth);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra_dark);
+}
+
