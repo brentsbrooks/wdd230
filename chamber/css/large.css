@@ -86,6 +86,10 @@
     grid-column: 3/5;
   }
 
+  .levels {
+    grid-column: 3/5;
+  }
+
 
 
 }

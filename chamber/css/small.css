@@ -1,8 +1,8 @@
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'radio canada', sans-serif;
 }
 
-p {
+p, legend, li {
   font-family: 'roboto flex', sans-serif;
 }
 
@@ -114,6 +114,10 @@ main {
   margin: 5px;
 }
 
+main h2 {
+  text-align: center;
+}
+
 main div {
   border: 1px solid #284B63;
   margin: 3px;
@@ -126,6 +130,42 @@ main p {
   line-height: 1.5rem;
   
 }
+
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem auto;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+label {
+  width: 90%;
+  padding: 0.5rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+li {
+  line-height: 2rem;
+}
+
+#benefits {
+  padding: 2rem;
+}
+
+
 
 .spotlight1 {
   border: 1px solid #284B63;
@@ -252,6 +292,10 @@ img {
   
 }
 
+li {
+  text-align: left;
+}
+
 
 /* ------------FOOTER */
 
@@ -275,5 +319,12 @@ footer div {
   padding: 5px;
 }
 
+/* -----------Thank You----------- */
 
+.thankYou {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+}
 

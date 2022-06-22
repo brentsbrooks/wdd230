@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join | Centurion Chamber of Commerce</title>
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <script src="js/script.js" defer></script>
+  <script src="js/join.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
+
+    <section class="headings">    
+      <h1>Centurion</h1>
+      <h3>Chamber of Commerce</h3>
+    </section>  
+    <nav>
+      <div class="social">
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin" class="social"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook" class="social"></a>
+      </div>
+      <ul class="navigation">
+        <li><a class="ham" href="#">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p id="date"></p>
+
+  </header>
+
+  <main>
+
+    <h2 id="joinHeading">Join the Chamber of Commerce Today!</h2>
+    <h3 id="applicationHeading">Application Form</h3>
+    <div class="appForm">
+      <h3>Join</h3>
+      <p>* indicates required field</p>
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label class="top"> First Name* <input type="text" name="fname" required> </label>
+          <label class="top"> Last Name* <input type="text" name="lname" required> </label>
+          <label class="top"> Email* <input type="email" name="email" placeholder="example@gmail.com" required> </label>
+          <label class="top"> Phone* <input type="tel" name="phone" placeholder="1234567890" required> </label>
+        </fieldset>
+        <fieldset>
+          <legend>Business information</legend>
+          <label class="top"> Business Name* <input type="text" name="business-name" required> </label>
+          <label class="top"> Business Position <input type="text" name="business-position" id="businessPosition" pattern="[a-zA-Z0-9- ]{7,}"> </label>
+          <label class="top"> Business Description <textarea name="description"></textarea> </label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership level</legend>
+          <label class="sbs"><input type="radio" name="membership" value="np-membership"> NP Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="bronze-membership"> Bronze Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="silver-membership"> Silver Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="gold-membership"> Gold Member</label>
+        </fieldset>
+        <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
+        <input type="submit" value="Submit" class="submitBtn">
+      </form>
+    </div>
+
+    <div class="levels">
+      
+        <h3 id="benefits">Benefits</h3>
+      
+      <h4>Non-Profit Membership | Free</h4>
+      <ul>
+        <li>Link to business website from Chamber of Commerce page</li>
+        <li>Stay up to date with weekly newsletters</li>
+        <li>Gatherings and networking opportunities</li>
+      </ul>
+      
+      <h4>Bronze Membership | $100 Anually</h4>
+      <ul>
+        <li>Business & marketing workshops and Opportunities to network</li>
+        <li>10% discount on market research and consulting services</li>
+        <li>Includes lower level benefits</li>
+      </ul>
+
+      <h4>Silver Membership | $300 Anually</h4>
+      <ul>
+        <li>20% discount on market research and consulting services</li>
+        <li>Networking lunches with other Chamber of Commerce members</li>
+        <li>Includes lower level benefits</li>
+      </ul>
+
+      <h4>Gold Membership | $500 Anually</h4>
+      <ul>
+        <li>50% discount on market research and consulting services</li>
+        <li>Exclusive networking dinners with top business leaders from the city</li>
+        <li>Includes lower level benefits</li>
+      </ul>
+
+    </div>
+
+  </main>
+  
+  <footer>
+    <img src="images/logo.webp" alt="logo">
+
+    <div>
+      <p>10 Selborne Street</p>
+      <p>Centurion, South Africa, 0157</p>
+    </div>
+    <div>
+      <p>info@centurioncoc.co.za</p>
+      <p>+(27) 12-664-1234</p>
+      <a href="#">Location map</a>
+    </div>
+    <div class="info">
+      <p>&copy;<span id="year"></span> | Brent Brooks | Centurion, South Africa</p>
+      <p>Last updated: <span id="modified"></span></p>
+    </div>
+  </footer>
+
+</body>
+</html>
