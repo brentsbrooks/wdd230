@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
 })
 .then(function (jsonObject){
-    console.table(jsonObject)// temporary checking for valid response and data parsing
+    console.table(jsonObject)
     const companies=jsonObject["companies"];
     companies.forEach(companyInfo)
 });
@@ -42,12 +42,12 @@ const list=document.querySelector("#list");
 const display = document.querySelector(".businessCards");
 
 grid.addEventListener("click", () => {
-	// example using arrow function
+	
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-list.addEventListener("click", showList); // example using defined function
+list.addEventListener("click", showList); 
 
 function showList() {
 	display.classList.add("list");
