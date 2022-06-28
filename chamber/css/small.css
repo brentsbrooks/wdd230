@@ -296,6 +296,38 @@ li {
   text-align: left;
 }
 
+.buttons {
+  text-align: right;
+  padding: 1rem;
+}
+
+.businessCards img {
+  width: 50%;
+}
+
+.businessCards section {
+  border: 1px solid #284B63;
+  background-color: #D9D9D9;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section:nth-child(even) {
+  background-color: white;
+}
+
+.list section img {
+  display: none;
+}  
+
 
 /* ------------FOOTER */
 

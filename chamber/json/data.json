@@ -1,0 +1,68 @@
+{
+  "companies":[
+      {
+      "name":"Ridgeback Village",
+      
+      "phone":"(012)667-1142",
+      "website":"https://www.ridgebackvillage.co.za/",
+      "icon":"images/directory/ridgeback.png",
+      "membershipLevel":"Silver"
+      },
+      {
+      "name":"Outsurance",
+      "phone":"08 600 60 000",
+      "website":"https://www.outsurance.co.za/",
+      "icon":"images/directory/outsurance.png",
+      "membershipLevel":"Gold"
+      },
+      {
+      "name":"Automagic",
+      "phone":"(012)661-1003",
+      "website":"https://automagic.co.za/",
+      "icon":"images/directory/automagic.png",
+      "membershipLevel":"Bronze"
+      },
+      {
+      "name":"Discovery",
+      "phone":"(012)648-9000",
+      "website":"https://www.discovery.co.za/portal/",
+      "icon":"images/directory/discovery.png",
+      "membershipLevel":"Gold"
+      },
+      {
+      "name":"Momentum",
+      "phone":"(012)671-8911",
+      "website":"https://www.momentum.co.za/momentum/home",
+      "icon":"images/directory/momentum.png",
+      "membershipLevel":"Gold"
+      },
+      {
+      "name":"Hennie's",
+      "phone":"(072)260-2575",
+      "website":"https://therealhennies.co.za/",
+      "icon":"images/directory/hennies.png",
+      "membershipLevel":"Bronze"
+      },
+      {
+      "name":"Railways Cafe",
+      "phone":"(084)018-5098",
+      "website":"https://www.railwayscafe.co.za/",
+      "icon":"images/directory/railways.png",
+      "membershipLevel":"Bronze"
+      },
+      {
+      "name":"GP Electricians",
+      "phone":"(087)250-2301",
+      "website":"https://gpelectricians.co.za/centurion/",
+      "icon":"images/directory/gpElectricians.png",
+      "membershipLevel":"Silver"
+      },
+      {
+      "name":"TecLeo Data Recovery",
+      "phone":"(012)665-2945",
+      "website":"https://www.datarecovery.co.za/",
+      "icon":"images/directory/tecLeo.png",
+      "membershipLevel":"Silver"
+      }
+  ]
+}

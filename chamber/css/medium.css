@@ -93,6 +93,27 @@
     width: 200px;
   }
 
+  .businessCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    
+  }
+
+  #directoryPage {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+  .list section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
 
 
 }
