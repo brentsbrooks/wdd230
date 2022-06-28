@@ -4,6 +4,9 @@
     border: none;
     grid-column: 1/2;
 	}
+
+
+
 	.navigation li {
 		display: block; 
 		flex: 1 1 auto;
@@ -20,6 +23,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+    width: 85%;
   }
   
   .social {
@@ -91,6 +95,19 @@
   }
 
 
+  .businessCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+
+  
 
 }
 
