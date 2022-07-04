@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Directory | Centurion Chamber of Commerce</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
@@ -19,28 +19,30 @@
 </head>
 <body>
   <header>
-    <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
 
-    <section class="headings">    
+    <img src="images/logo.webp" alt="logo manizales Chamber">
+
+
+    <div class="titles">
       <h1>Centurion</h1>
-      <h3>Chamber of Commerce</h3>
-    </section>  
+      <h2>Chamber of Commerce</h2>
+    </div>
+
+    <div class="social">
+      <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="logo facebook"></a>
+      <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="logo linkedin"></a>
+    </div>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <span id="date"></span>
     <nav>
-      <div class="social">
-        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin" class="social"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook" class="social"></a>
-      </div>
-      <ul class="navigation">
-        <li><a class="ham" href="#">&#9776;</a></li>
-        <li><a href="index.html">Home</a></li>
+      <ul id="primaryNav">
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
-
-    <p id="date"></p>
 
   </header>
 

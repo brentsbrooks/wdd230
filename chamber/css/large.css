@@ -1,37 +1,60 @@
 @media only screen and (min-width: 64em) {
-  .navigation {
-		display: flex;
-    border: none;
-    grid-column: 1/2;
-	}
 
-
-
-	.navigation li {
-		display: block; 
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-
-  nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-  }
   
-  .social {
+  /* header*/
+
+  header {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+  }
+
+  header img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .titles {
     grid-column: 2/3;
     grid-row: 1/2;
-    display: flex;
-    margin: 5px;
   }
+
+  nav {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .social {
+    grid-column: 4/5;
+    justify-self: center;
+    grid-row: 1/2;
+  }
+
+  .date {
+    margin-bottom: 1rem;
+    grid-row: 1/5;
+  }
+
+  header button {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    margin-left: 2vw;
+  }
+
+  nav ul li a {
+    border: none;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+  }
+
+
+  nav,
+  #primaryNav.open {
+    display: flex;
+    grid-row: 1;
+    grid-column: 3 / 4;
+  }
+
 
   main {
     display: grid;
@@ -103,6 +126,14 @@
   .list {
     display: flex;
     flex-direction: column;
+  }
+
+  .contactUs {
+    grid-column: 3/5;
+  }
+
+  .messageForm {
+    grid-column: 1/3;
   }
 
  

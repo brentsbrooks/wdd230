@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You | Centurion CHamber of Commerce</title>
+  <title>Contact Us | Centurion Chamber of Commerce</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
@@ -14,9 +14,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <script src="js/script.js" defer></script>
+
 </head>
 <body>
-
   <header>
 
     <img src="images/logo.webp" alt="logo manizales Chamber">
@@ -45,14 +45,44 @@
 
   </header>
 
-  <main class="thankYou">
+  <main>
 
-    <h1 class="thankYou">Thank You!</h1>
-    <h2 class="thankYou">Your application is being processed</h2>
-    <p class="thankYou">We will contact you with further information via your provided e-mail</p>
+    <div class="messageForm">
+      <h2>Send Us A Message</h2>
+      <p><i>* Indicates required field</i></p>
+      <form method="get" action="thankyou.html">
+
+        <fieldset>
+          <legend>Your Information</legend>
+          <label class="top">Name: <input type="text" name="name" required></label>
+
+          <label class="top">E-mail: <input type="email" name="email" placeholder="user@email.com"
+              required></label>
+
+          <label class="top">Question/Concern: <textarea placeholder="How can we help you?" name="question"
+              required></textarea></label>
+        </fieldset>
+
+        <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
+        <input type="submit" value="Contact Us" class="submitBtn">
+      </form>
+
+    </div>
+
+    <div class="contactUs">
+      <h2>Contact Us</h2>
+      <h3>Email</h3>
+      <p>info@centurioncoc.co.za</p>
+      <h3>Phone</h3>
+      <p>+(27) 12-664-1234</p>
+      <h3>Address</h3>
+      <p>10 Selborne Street</p>
+      <p>Centurion, South Africa, 0157</p>
+      <h3>Office Hours</h3>
+      <p>Mon - Fri: 08:00 - 17:00</p>
+    </div>
 
   </main>
-
   <footer>
     <img src="images/logo.webp" alt="logo">
 
@@ -69,7 +99,8 @@
       <p>&copy;<span id="year"></span> | Brent Brooks | Centurion, South Africa</p>
       <p>Last updated: <span id="modified"></span></p>
     </div>
+
+
   </footer>
-  
 </body>
 </html>

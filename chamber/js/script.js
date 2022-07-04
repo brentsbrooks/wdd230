@@ -1,17 +1,15 @@
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+// HEADER
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+// Navigation
+function toggleMenu(){
+  document.querySelector("#primaryNav").classList.toggle("open");
+  document.querySelector("#hamburgerBtn").classList.toggle("open");
+}
 
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.querySelector("#hamburgerBtn");
+x.onclick = toggleMenu;
 
-
-const year = new Date();
-document.querySelector('#year').innerHTML = year.getFullYear();
-
-const oLastModif = new Date(document.lastModified);
-document.querySelector('#modified').innerHTML = oLastModif;
-
+// Date
 const datefieldUK = document.querySelector("#date");
 
 const now = new Date();
@@ -21,6 +19,16 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefieldUK.innerHTML = `${fulldateUK}`;
 
 
+// FOOTER
+const year = new Date();
+document.querySelector('#year').innerHTML = year.getFullYear();
+
+const oLastModif = new Date(document.lastModified);
+document.querySelector('#modified').innerHTML = oLastModif;
+
+
+
+// BANNER
 let d = new Date().getDay();
 
 const banner = document.getElementById("banner");

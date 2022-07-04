@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Centurion Chamber of Commerce</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
@@ -19,38 +19,41 @@
 <body>
   <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❌</button></div>
   <header>
-    <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
 
-    <section class="headings">    
+    <img src="images/logo.webp" alt="logo manizales Chamber">
+
+
+    <div class="titles">
       <h1>Centurion</h1>
-      <h3>Chamber of Commerce</h3>
-    </section>  
+      <h2>Chamber of Commerce</h2>
+    </div>
+
+    <div class="social">
+      <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="logo facebook"></a>
+      <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="logo linkedin"></a>
+    </div>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <span id="date"></span>
     <nav>
-      <div class="social">
-        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin" class="social"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook" class="social"></a>
-      </div>
-      <ul class="navigation">
-        <li><a class="ham" href="#">&#9776;</a></li>
-        <li><a href="index.html">Home</a></li>
+      <ul id="primaryNav">
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
-
-    <p id="date"></p>
 
   </header>
   <main>
     <div class="section_1">
       <h2>Welcome to Centurion</h2>
       <picture>
-        <img src="images/wdd230-org0.jpg" alt="week 6" sizes="50vs"
-        srcset="images/wdd230-600.jpg 520w,
-        images/wdd230-800.jpg 1024w,
-        images/wdd230-1100.jpg 1200w,"">
+        <img src="images/centurion700.jpg" alt="week 6" sizes="50vs"
+        srcset="images/centurion400.jpg 520w,
+        images/centurion700.jpg 1024w,
+        images/centurion500.jpg 1200w,"">
+
       </picture>
     </div>
     <div class="section_2">
@@ -70,16 +73,15 @@
     </div>
     <div class="section_4">
       <h3>News Release</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Veritatis provident magnam reiciendis non architecto, 
-        quidem quos accusamus autem perferendis! Dolorem est, 
-        cumque saepe illo quas voluptatibus dolorum sequi blanditiis 
-        omnis a aliquam in magni molestiae provident officiis ducimus 
-        incidunt eveniet aperiam odit! Esse aliquam recusandae, debitis 
-        nemo at ullam quasi dolorum neque non ea nostrum exercitationem impedit.</p>
+      <p>On the 13th of May 2022 (because we are not scared or superstitious) the Centurion Business Forum had their third annual Bowls 
+        Challenge which was well supported by member companies and other Centurion business. The day provided companies an opportunity to 
+        network and display their services and products and to get to know each other in a lovely informal outdoors day.
+        A great deal of fun was had by all, and some teams took the challenge and competition serious, some tried their best, but most 
+        importantly – a huge amount of fun, laughter, and joie de vivre was had by all. The next event like this is on 14 October 2022 and 
+        we hope that this would lead to a Business Challenge league over a period of 4-6 weeks.</p>
     </div>
     <div class="section_5">
-      <h3>Join Us!</h3>
+      <a href="join.html"><h3>Join Us!</h3></a>
       <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
     </div>
     <div class="section_6">
