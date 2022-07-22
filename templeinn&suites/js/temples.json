@@ -1,0 +1,52 @@
+{
+  "temples":[
+    {
+      "name":"Durban, South Africa",
+      "icon":"images/temples/durban.png",
+      "address":"2 Izinga Drive, Izinga Ridge, Umhlanga, KwaZulu-Natal, 4021, South Africa",
+      "phone":"(27) 31-140-0240",
+      "email":"durbantemple@lds.com",
+      "services":"",
+      "history":"",
+      "oridinanceSchedule":"",
+      "sessionSchedude":"",
+      "closureShedule":""
+    },
+    {
+      "name":"Rome, Italy",
+      "icon":"images/temples/rome.png",
+      "address":"Via di Settebagni 376, Rome RM, Italy",
+      "phone":"(39) 06-9480-5050",
+      "email":"rometemple@lds.com",
+      "services":"",
+      "history":"",
+      "oridinanceSchedule":"",
+      "sessionSchedude":"",
+      "closureShedule":""
+    },
+    {
+      "name":"Mount Timpanogos, Utah",
+      "icon":"images/temples/timpanogos.jpeg",
+      "address":"742 N 900 E, American Fork UT 84003-9124, United States",
+      "phone":"(1) 801-763-4540",
+      "email":"timpanogostemple@lds.com",
+      "services":"",
+      "history":"",
+      "oridinanceSchedule":"",
+      "sessionSchedude":"",
+      "closureShedule":""
+    },
+    {
+      "name":"Campinas, Brazil",
+      "icon":"images/temples/campinas.jpeg",
+      "address":"Rua James Esdras Faust, 400, Barrio Notre Dame, CEP 13092-820 Campinas - SP, Brazil",
+      "phone":"(55) 19-2102-5800",
+      "email":"campinastemple@lds.com",
+      "services":"",
+      "history":"",
+      "oridinanceSchedule":"",
+      "sessionSchedude":"",
+      "closureShedule":""
+    }
+  ]
+}

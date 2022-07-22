@@ -1,0 +1,75 @@
+@media only screen and (min-width: 64em) {
+
+  /* -----HEADER----- */
+
+  /* Social Media Links */
+  header .socialMedia {
+    grid-row: 1/3;
+  }
+
+  /* Navigation */
+  header button {
+    display: none;
+  }
+
+  nav ul {
+    display: grid;
+    grid-auto-flow:column;
+    width: 95%;
+    margin: auto;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-top: solid 1px #4A5240;
+  }
+
+  nav ul li a {
+    border: none;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+  }
+
+  nav, #primaryNav.open {
+    /* display: flex; */
+    grid-row: 3/4;
+    grid-column: 1/4;
+  }
+
+  /* ----------------------------HOME---------------------------- */
+
+  /* Temple */
+  .homeTemple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .homeTemple h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .homeTemple img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .homeTemple .templeSummary {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .templeSummary .templeAddress {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .templeSummary .templePhone {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .templeSummary .templeServices {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+
+}

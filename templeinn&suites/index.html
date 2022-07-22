@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | The Temple Inn & Suites</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img id="logo" src="images/logo.png" alt="Logo">
+
+    <h1>The Temple Inn & Suites</h1>
+
+    <div class="socialMedia">
+      <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook logo"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram logo"></a>
+    </div>
+
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
+    <nav>
+      <ul id="primaryNav">
+        <li><a href="temples.html">Temples</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <div class="hero">
+      <h2>Make a Reservation!</h2>
+
+      <img src="images/homepage/home-img.jpg" id="homeHero" alt="Hero image of temple">
+
+      <button type="button" onclick="window.location.href='reservations.html';">Book Now!</button>
+    </div>
+
+    <!-- Temple -->
+    
+
+    <div class="homeTemple">
+      <h2 id="templeHeading">Johannesburg, South Africa Temple</h2>
+
+      <img src="images/homepage/johannesburgTemple.jpg" alt="Johannesburg, South Africa temple">
+
+      <div class="templeSummary">
+        <div class="templeAddress">
+          <h3>Address</h3>
+          <p>7 Jubilee Rd</p>
+          <p>Parktown</p>
+          <p>Johannesburg, 2193, South Africa</p>
+        </div>
+
+        <div class="templePhone">
+          <h3>Phone</h3>
+          <p>(27) 11-645-1540</p>
+        </div>
+
+        <div class="templeServices">
+          <h3>Services</h3>
+          <p>Clothing rental available</p>
+          <p>No cafateria available</p>
+          <p>Patron housing available</p>
+          <p>Distriburion center nearby</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Current Weather -->
+    <div class="currentWeather">
+      <h2>Current Weather</h2>
+      <div class="weatherContent">
+        <img src="#" alt="#" id="weather-icon">
+        <p><span id="temp"></span>°C</p> 
+        <p><span id="condition"></span></p>
+        <p><b>Humidity: </b><span id="humidity"></span>%</p>
+      </div>
+    </div>
+
+    <div class="weatherForecast">
+      <h2>Forecast</h2>
+      <div>
+        <p>#</p>
+      </div>
+      <div>
+        <p>#</p>
+      </div>
+      <div>
+        <p>#</p>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <img id="logo" src="images/logo.png" alt="Logo">
+
+    <div class="contact">
+      <p>Email: info@thetempleinn.com</p>
+      <p>Phone: (+27) 012-123-4567</p>
+    </div>
+
+    <div class="address">
+      <p>Address:</p>
+      <p>4800 Montgomery Ln #300</p>
+      <p>Bethesda, MD</p>
+      <p>20814</p>
+      <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+USA/@38.
+      9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-
+      77.0955318" target="_blank">Location Map</a>
+    </div>
+
+    <div class="socialMedia">
+      <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook logo"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram logo"></a>
+    </div>
+
+    <div class="info">
+      <p>&copy;<span id="year"></span> | Brent Brooks | Centurion, South Africa</p>
+      <p>Last updated: <span id="modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>
